@@ -16,10 +16,6 @@ NoteTakingApp/
 ├── docs/
 │   ├── API_Documentation.md
 │   └── README.md
-├── errorTesting/
-│   ├── index.ejs
-│   ├── movie-detail.ejs
-│   └── submit-review.ejs
 ├── models/
 │   └── Note.js
 ├── public/
