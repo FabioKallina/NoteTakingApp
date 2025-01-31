@@ -1,6 +1,25 @@
 
 # Note Taking App
-This is a Note Taking App built with HTML, CSS, and Node.js.
+
+This is a Note Taking application crafted with:
+
+- **Frontend**: 
+  - HTML for structure
+  - CSS for styling
+
+- **Backend**: 
+  - Node.js with Express.js for server-side logic
+
+- **Database**: 
+  - MongoDB for data storage
+
+- **Authentication**: 
+  - Auth0 via OpenID Connect for user authentication
+
+- **Templating**: 
+  - EJS for rendering dynamic views
+
+The app allows users to **create**, **read**, **update**, and **delete** notes, ensuring that each user can only interact with their own notes through personalized authentication.
 
 ## File Structure
 ```
