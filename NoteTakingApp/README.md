@@ -1,6 +1,6 @@
 
 Movie Ratings & Reviews App
-This is a simple movie ratings and reviews app built with HTML, CSS, and Node.js.
+This is a Note Taking App built with HTML, CSS, and Node.js.
 
 File Structure
 NoteTakingApp/
