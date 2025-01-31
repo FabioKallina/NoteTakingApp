@@ -1,8 +1,9 @@
 
-# Movie Ratings & Reviews App
+# Note Taking App
 This is a Note Taking App built with HTML, CSS, and Node.js.
 
-File Structure
+## File Structure
+```
 NoteTakingApp/
 │
 ├── config/
@@ -48,18 +49,27 @@ NoteTakingApp/
 ├── app.js
 ├── package.json
 └── package-lock.json
+```
 
-How to Run the App
+## How to Run the App
 
-1.Clone the repository:
-git clone https;//github.com/FabioKallina/NoteTakingApp.git
-cd project-root
+1. **Clone the repository**
+  ```sh
+  git clone https://github.com/FabioKallina/NoteTakingApp.git
+  cd project-root
+  ```
 
-2.Install the dependencies:
-npm install
+2. **Install the dependencies**
+  ```sh
+  npm install
+  ```
 
-3.Run the application:
-nodemon app.js
+3. **Run the application**
+  ```sh
+  nodemon app.js
+  ```
 
-4.Open your web browser and go to:
-http://localhost:3000
+4. **Open your web browser and go to**
+  ```
+  http://localhost:3000
+  ```
