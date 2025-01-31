@@ -44,10 +44,11 @@ NoteTakingApp/
 │   ├── note-editor.ejs
 │   ├── notes.ejs
 │   └── profile.ejs 
-├── .env
+├── .gitignore
 ├── app.js
-├── package.json
-└── package-lock.json
+├── README.md
+├── package-lock.json
+└── package.json
 ```
 
 ## How to Run the App
