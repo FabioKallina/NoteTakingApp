@@ -56,7 +56,7 @@ NoteTakingApp/
 ### **1 Clone the Repository**
 ```sh
 git clone https://github.com/FabioKallina/NoteTakingApp.git
-cd NoteTakingApp
+cd project
 ```
 
 ### **2 Install Dependencies**
