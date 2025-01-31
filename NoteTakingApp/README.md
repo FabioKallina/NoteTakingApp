@@ -1,5 +1,5 @@
 
-Movie Ratings & Reviews App
+# Movie Ratings & Reviews App
 This is a Note Taking App built with HTML, CSS, and Node.js.
 
 File Structure
