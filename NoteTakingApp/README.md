@@ -6,6 +6,7 @@ This is a Note Taking application crafted with:
 - **Frontend**: 
   - HTML for structure
   - CSS for styling
+  - JavaScript for interactivity
 
 - **Backend**: 
   - Node.js with Express.js for server-side logic
