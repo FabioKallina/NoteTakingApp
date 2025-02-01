@@ -101,7 +101,7 @@ This app uses **Auth0** for authentication. To run it locally, you need to set u
 
 ### **5 Start the Application**
 ```sh
-npm start
+nodemon app.js
 ```
 The server will run at `http://localhost:3000`.
 
