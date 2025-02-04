@@ -99,16 +99,11 @@ This app uses **Auth0** for authentication. To run it locally, you need to set u
    - Allowed Logout URLs → `http://localhost:3000`
    - Allowed Web Origins → `http://localhost:3000`
 
-### **5 Start the Application**
-```sh
-npm start
-```
-The server will run at `http://localhost:3000`.
-
-### **6 Run with Nodemon (for development)**
+### **5 Run with Nodemon (for development)**
 ```sh
 npm run dev
 ```
+The server will run at `http://localhost:3000`.
 
 ## 📜 API Endpoints
 | Method | Endpoint         | Description                  |
