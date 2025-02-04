@@ -14,8 +14,8 @@ NoteTakingApp/
 ├── controllers/
 │   └── notesController.js
 ├── docs/
-│   ├── API_Documentation.md
-│   └── README.md
+│   ├── .env.example
+│   └── API_Documentation.md
 ├── models/
 │   └── Note.js
 ├── public/
