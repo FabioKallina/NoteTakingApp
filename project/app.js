@@ -4,7 +4,7 @@ import pkg from "express-openid-connect";
 import path from "path";
 import { fileURLToPath } from "url";
 import morgan from "morgan";
-import connectDB from "./config/db.js";
+import connectDB from "./models/config/db.js";
 import favicon from "serve-favicon";
 import dotenv from "dotenv";
 import router from "./routes/routes.js";
