@@ -10,11 +10,13 @@
 
       <!-- Profile Section -->
       <div class="profile">
-        <img
-            src="https://lh3.googleusercontent.com/a/ACg8ocKQJe23hT3lvBNop3FH5byOHED5eU7QEeSHlMYMoPJVpi1PlQ=s96-c"
+        <% if (user && user.picture) { %>
+          <img
+            src="<%= user.picture %>"
             alt="Profile"
             class="profile-img"
         />
+        <% } %>
         <div class="dropdown">
           <ul class="dropdown-menu">
             <li><a href="/profile">Profile</a></li>

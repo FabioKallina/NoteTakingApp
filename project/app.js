@@ -53,12 +53,17 @@ app.use(auth(config));
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views")); //joining the name of the directory with the subfolder and setting it to views
 
+app.use((req, res, next) => {
+  res.locals.user = req.oidc.user || null;
+  next();
+});
+
 //Routes
 app.use("/", router);
 
 // req.isAuthenticated is provided from the auth router
 app.get("/", (req, res) => {
-  res.render("index", { authenticated: req.oidc.isAuthenticated() });
+  res.render("index", { authenticated: req.oidc.isAuthenticated(), user: req.oidc.user || null });
 });
 
 app.get("/profile", requiresAuth(), async (req, res) => {
