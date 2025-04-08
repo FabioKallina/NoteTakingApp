@@ -62,6 +62,15 @@ app.use((req, res, next) => {
 //Routes
 app.use("/", router);
 
+// Route for login
+app.get("/login", (req, res) => {
+  res.oidc.login();  // This will trigger Auth0's login flow
+});
+
+app.get("/callback", (req, res) => {
+  res.oidc.login({ returnTo: "/" }); // Redirect the user back to the home page
+});
+
 // req.isAuthenticated is provided from the auth router
 app.get("/", (req, res) => {
   res.render("index", { authenticated: req.oidc.isAuthenticated(), user: req.oidc.user || null });
