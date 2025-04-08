@@ -44,6 +44,7 @@ const config = {
   baseURL: process.env.BASE_URL,
   clientID: process.env.CLIENT_ID,
   issuerBaseURL: process.env.ISSUER_BASE_URL,
+  redirectUri: process.env.BASE_URL + '/callback'
 };
 
 // auth router attaches /login, /logout, and /callback routes to the baseURL
