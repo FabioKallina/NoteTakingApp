@@ -1,4 +1,4 @@
-
+3
 # Note Taking App
 
 This is a simple **Note-Taking App** built with **Node.js, Express, MongoDB, and Auth0 authentication**.
